@@ -1,5 +1,5 @@
 @echo off
-set USER_NAME="oquno"
-set REPO_DIR="C:\cygwin\home\%USER_NAME%\%USER_NAME%.github.io"
-powercfg /batteryreport
-move /Y "C:\Users\%USER_NAME%\battery-report.html" "%REPO_DIR%\battery\index.html"
+set USER_NAME=oquno
+set OUT_PATH="C:\cygwin\home\%USER_NAME%\%USER_NAME%.github.io\battery\index.html"
+echo %OUT_PATH%
+powercfg /batteryreport /output %OUT_PATH%
