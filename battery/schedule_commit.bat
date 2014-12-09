@@ -5,3 +5,4 @@ call %REPO_DIR%\battery\battery.bat
 cd %REPO_DIR%
 %GIT% add battery/index.html
 %GIT% commit -m "scheduled commit"
+%GIT% push
