@@ -521,7 +521,12 @@
 { x0: "2014-12-27T12:13:14", x1: "2014-12-27T12:13:14", y0: 0.9955134945671223, y1: 0.9955134945671223 }, 
 { x0: "2014-12-27T12:13:14", x1: "2014-12-27T12:13:14", y0: 0.9955134945671223, y1: 0.9955134945671223 }, 
 { x0: "2014-12-27T12:13:14", x1: "2014-12-27T12:13:14", y0: 0.9955134945671223, y1: 0.9955134945671223 }, 
-{ x0: "2014-12-27T12:15:32", x1: "2014-12-27T12:18:00", y0: 0.9902558710129689, y1: 0.9831756046267087 }, 
+{ x0: "2014-12-27T12:15:32", x1: "2014-12-27T12:56:00", y0: 0.9902558710129689, y1: 0.9050823694356818 }, 
+{ x0: "2014-12-27T12:56:00", x1: "2014-12-27T13:02:00", y0: 0.9050823694356818, y1: 0.9050823694356818 }, 
+{ x0: "2014-12-27T13:02:00", x1: "2014-12-27T13:56:00", y0: 0.9050823694356818, y1: 0.7678934454959692 }, 
+{ x0: "2014-12-27T13:56:00", x1: "2014-12-27T14:02:00", y0: 0.7678934454959692, y1: 0.7678934454959692 }, 
+{ x0: "2014-12-27T14:02:00", x1: "2014-12-27T14:04:13", y0: 0.7678934454959692, y1: 0.7447599018576937 }, 
+{ x0: "2014-12-27T14:04:13", x1: "2014-12-27T14:04:13", y0: 0.7447599018576937, y1: 0.7447599018576937 }, 
 
     ];
     
@@ -529,8 +534,8 @@
         Timegraph.draw({
             element: "drain-graph",
             data: drainGraphData,
-            startTime: "2014-12-24T12:20:34",
-            endTime: "2014-12-27T12:20:35",
+            startTime: "2014-12-24T16:46:29",
+            endTime: "2014-12-27T16:46:30",
         });
     }
 
@@ -556,7 +561,7 @@
           CONNECTED STANDBY
         </td><td>Supported</td></tr><tr><td class="label">
           REPORT TIME
-        </td><td class="dateTime"><span class="date">2014-12-27 </span><span class="time">12:20:35</span></td></tr></table><h2>
+        </td><td class="dateTime"><span class="date">2014-12-27 </span><span class="time">16:46:30</span></td></tr></table><h2>
       Installed batteries
     </h2><div class="explanation">
       Information about each currently installed battery
@@ -564,7 +569,7 @@
                   BATTERY
                   1</td></tr></thead><tr><td><span class="label">NAME</span></td><td>SR Real Battery</td></tr><tr><td><span class="label">MANUFACTURER</span></td><td>Intel SR 1</td></tr><tr><td><span class="label">SERIAL NUMBER</span></td><td>123456789</td></tr><tr><td><span class="label">CHEMISTRY</span></td><td>LION</td></tr><tr><td><span class="label">DESIGN CAPACITY</span></td><td>15,188 mWh
       </td></tr><tr style="height:0.4em;"></tr><tr><td><span class="label">FULL CHARGE CAPACITY</span></td><td>14,265 mWh
-      </td></tr><tr><td><span class="label">CYCLE COUNT</span></td><td>89</td></tr></table><h2>Recent usage</h2><div class="explanation">
+      </td></tr><tr><td><span class="label">CYCLE COUNT</span></td><td>90</td></tr></table><h2>Recent usage</h2><div class="explanation">
       Power states over the last 3 days
     </div><table><colgroup><col/><col class="col2"/><col style="width: 4.2em;"/><col class="percent"/><col style="width: 11em;"/></colgroup><thead><tr><td>
             START TIME
@@ -574,7 +579,7 @@
             SOURCE
           </td><td colspan="2" class="centered">
             CAPACITY REMAINING
-          </td></tr></thead><tr class="even  1"><td class="dateTime"><span class="date">2014-12-24 </span><span class="time">12:48:48</span></td><td class="state">
+          </td></tr></thead><tr class="even  1"><td class="dateTime"><span class="date">2014-12-24 </span><span class="time">16:48:52</span></td><td class="state">
             Connected standby
           </td><td class="acdc">
         AC
@@ -816,12 +821,28 @@
         Battery
       </td><td class="percent">99 %
         </td><td class="mw">14,126 mWh
-        </td></tr><tr class="even dc 43"><td class="dateTime"><span class="date"> </span><span class="time">12:18:00</span></td><td class="state">
+        </td></tr><tr class="even dc 43"><td class="dateTime"><span class="date"> </span><span class="time">14:04:13</span></td><td class="state">
+            Connected standby
+          </td><td class="acdc">
+        Battery
+      </td><td class="percent">74 %
+        </td><td class="mw">10,624 mWh
+        </td></tr><tr class="odd suspend 44"><td class="dateTime"><span class="date"> </span><span class="time">14:04:13</span></td><td class="state">
+        Suspended
+      </td><td class="acdc"></td><td class="percent">74 %
+        </td><td class="mw">10,624 mWh
+        </td></tr><tr class="even dc 45"><td class="dateTime"><span class="date"> </span><span class="time">16:41:46</span></td><td class="state">
+        Active
+      </td><td class="acdc">
+        Battery
+      </td><td class="percent">74 %
+        </td><td class="mw">10,601 mWh
+        </td></tr><tr class="odd dc 46"><td class="dateTime"><span class="date"> </span><span class="time">16:41:46</span></td><td class="state">
         Report generated
       </td><td class="acdc">
         Battery
-      </td><td class="percent">98 %
-        </td><td class="mw">14,025 mWh
+      </td><td class="percent">74 %
+        </td><td class="mw">10,601 mWh
         </td></tr></table><h2>Battery usage</h2><div class="explanation">
       Battery drains over the last 3 days
     </div><canvas id="drain-graph" width="864" height="400"></canvas><table><colgroup><col/><col class="col2"/><col style="width: 10em;"/><col class="percent"/><col style="width: 11em;"/></colgroup><thead><tr><td>
@@ -896,9 +917,13 @@
             Connected standby
           </td><td class="hms">0:00:00</td><td class="nullValue">-</td><td class="nullValue">-</td></tr><tr class="noncontigbreak"><td colspan="5"> </td></tr><tr class="even dc 21"><td class="dateTime"><span class="date"> </span><span class="time">12:15:32</span></td><td class="state">
         Active
-      </td><td class="hms">0:02:27</td><td class="percent">1 %
-        </td><td class="mw">101 mWh
-        </td></tr></table><h2>
+      </td><td class="hms">1:48:40</td><td class="percent">25 %
+        </td><td class="mw">3,502 mWh
+        </td></tr><tr class="odd dc 22"><td class="dateTime"><span class="date"> </span><span class="time">14:04:13</span></td><td class="state">
+            Connected standby
+          </td><td class="hms">0:00:00</td><td class="nullValue">-</td><td class="nullValue">-</td></tr><tr class="noncontigbreak"><td colspan="5"> </td></tr><tr class="even dc 23"><td class="dateTime"><span class="date"> </span><span class="time">16:41:46</span></td><td class="state">
+        Active
+      </td><td class="hms">0:00:00</td><td class="nullValue">-</td><td class="nullValue">-</td></tr></table><h2>
       Usage history
     </h2><div class="explanation2">
       History of system usage on AC and battery
