@@ -621,6 +621,8 @@
 { x0: "2015-01-01T07:47:37", x1: "2015-01-01T07:49:37", y0: 0.3766032417195208, y1: 0.3755461592670895 }, 
 { x0: "2015-01-01T07:49:37", x1: "2015-01-01T07:50:26", y0: 0.3755461592670895, y1: 0.37420718816067655 }, 
 { x0: "2015-01-01T07:50:26", x1: "2015-01-01T07:51:49", y0: 0.37420718816067655, y1: 0.3734319943622269 }, 
+{ x0: "2015-01-01T07:51:49", x1: "2015-01-01T07:53:28", y0: 0.3734319943622269, y1: 0.370754052149401 }, 
+{ x0: "2015-01-01T07:53:28", x1: "2015-01-01T07:53:53", y0: 0.370754052149401, y1: 0.3705426356589147 }, 
 
     ];
     
@@ -628,8 +630,8 @@
         Timegraph.draw({
             element: "drain-graph",
             data: drainGraphData,
-            startTime: "2014-12-29T07:53:28",
-            endTime: "2015-01-01T07:53:28",
+            startTime: "2014-12-29T07:54:35",
+            endTime: "2015-01-01T07:54:35",
         });
     }
 
@@ -655,7 +657,7 @@
           CONNECTED STANDBY
         </td><td>Supported</td></tr><tr><td class="label">
           REPORT TIME
-        </td><td class="dateTime"><span class="date">2015-01-01 </span><span class="time">07:53:28</span></td></tr></table><h2>
+        </td><td class="dateTime"><span class="date">2015-01-01 </span><span class="time">07:54:35</span></td></tr></table><h2>
       Installed batteries
     </h2><div class="explanation">
       Information about each currently installed battery
@@ -1613,12 +1615,24 @@
         Battery
       </td><td class="percent">37 %
         </td><td class="mw">5,299 mWh
-        </td></tr><tr class="odd dc 160"><td class="dateTime"><span class="date"> </span><span class="time">07:51:49</span></td><td class="state">
+        </td></tr><tr class="odd dc 160"><td class="dateTime"><span class="date"> </span><span class="time">07:53:28</span></td><td class="state">
+            Connected standby
+          </td><td class="acdc">
+        Battery
+      </td><td class="percent">37 %
+        </td><td class="mw">5,261 mWh
+        </td></tr><tr class="even dc 161"><td class="dateTime"><span class="date"> </span><span class="time">07:53:53</span></td><td class="state">
+        Active
+      </td><td class="acdc">
+        Battery
+      </td><td class="percent">37 %
+        </td><td class="mw">5,258 mWh
+        </td></tr><tr class="odd dc 162"><td class="dateTime"><span class="date"> </span><span class="time">07:53:53</span></td><td class="state">
         Report generated
       </td><td class="acdc">
         Battery
       </td><td class="percent">37 %
-        </td><td class="mw">5,299 mWh
+        </td><td class="mw">5,258 mWh
         </td></tr></table><h2>Battery usage</h2><div class="explanation">
       Battery drains over the last 3 days
     </div><canvas id="drain-graph" width="864" height="400"></canvas><table><colgroup><col/><col class="col2"/><col style="width: 10em;"/><col class="percent"/><col style="width: 11em;"/></colgroup><thead><tr><td>
@@ -2012,6 +2026,12 @@
             Connected standby
           </td><td class="hms">0:01:23</td><td class="nullValue">-</td><td class="mw">11 mWh
         </td></tr><tr class="odd dc 126"><td class="dateTime"><span class="date"> </span><span class="time">07:51:49</span></td><td class="state">
+        Active
+      </td><td class="hms">0:01:38</td><td class="nullValue">-</td><td class="mw">38 mWh
+        </td></tr><tr class="even dc 127"><td class="dateTime"><span class="date"> </span><span class="time">07:53:28</span></td><td class="state">
+            Connected standby
+          </td><td class="hms">0:00:25</td><td class="nullValue">-</td><td class="mw">3 mWh
+        </td></tr><tr class="odd dc 128"><td class="dateTime"><span class="date"> </span><span class="time">07:53:53</span></td><td class="state">
         Active
       </td><td class="hms">0:00:00</td><td class="nullValue">-</td><td class="nullValue">-</td></tr></table><h2>
       Usage history
