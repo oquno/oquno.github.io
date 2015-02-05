@@ -466,13 +466,7 @@
     };
     
     drainGraphData = [
-    { x0: "2015-02-03T01:49:40", x1: "2015-02-03T02:01:45", y0: 0.321235305094234, y1: 0.321235305094234 }, 
-{ x0: "2015-02-03T02:01:45", x1: "2015-02-03T02:46:45", y0: 0.321235305094234, y1: 0.321235305094234 }, 
-{ x0: "2015-02-03T02:46:45", x1: "2015-02-03T03:01:45", y0: 0.321235305094234, y1: 0.31143870125023326 }, 
-{ x0: "2015-02-03T03:01:45", x1: "2015-02-03T04:46:47", y0: 0.31143870125023326, y1: 0.30472103004291845 }, 
-{ x0: "2015-02-03T04:46:47", x1: "2015-02-03T05:01:47", y0: 0.30472103004291845, y1: 0.29884306773651803 }, 
-{ x0: "2015-02-03T05:01:47", x1: "2015-02-03T06:46:47", y0: 0.29884306773651803, y1: 0.29249860048516513 }, 
-{ x0: "2015-02-03T06:46:47", x1: "2015-02-03T07:01:47", y0: 0.29249860048516513, y1: 0.2816756857622691 }, 
+    { x0: "2015-02-03T06:46:47", x1: "2015-02-03T07:01:47", y0: 0.29249860048516513, y1: 0.2816756857622691 }, 
 { x0: "2015-02-03T07:01:47", x1: "2015-02-03T08:46:47", y0: 0.2816756857622691, y1: 0.2715058779623064 }, 
 { x0: "2015-02-03T08:46:47", x1: "2015-02-03T09:01:47", y0: 0.2715058779623064, y1: 0.26488150774398206 }, 
 { x0: "2015-02-03T09:01:47", x1: "2015-02-03T09:47:52", y0: 0.26488150774398206, y1: 0.25788393356969585 }, 
@@ -535,11 +529,17 @@
 { x0: "2015-02-06T00:08:52", x1: "2015-02-06T00:21:40", y0: 0.9993587394650055, y1: 0.9312935141077318 }, 
 { x0: "2015-02-06T00:21:40", x1: "2015-02-06T00:50:41", y0: 0.9312935141077318, y1: 0.9312935141077318 }, 
 { x0: "2015-02-06T00:50:41", x1: "2015-02-06T01:05:42", y0: 0.9312935141077318, y1: 0.9312935141077318 }, 
-{ x0: "2015-02-06T01:05:42", x1: "2015-02-06T01:20:42", y0: 0.9312935141077318, y1: 0.9312935141077318 }, 
-{ x0: "2015-02-06T01:20:42", x1: "2015-02-06T01:25:59", y0: 0.9312935141077318, y1: 0.9210333455478197 }, 
-{ x0: "2015-02-06T01:25:59", x1: "2015-02-06T01:31:00", y0: 0.9210333455478197, y1: 0.9210333455478197 }, 
-{ x0: "2015-02-06T01:31:00", x1: "2015-02-06T01:36:00", y0: 0.9210333455478197, y1: 0.8588310736533529 }, 
-{ x0: "2015-02-06T01:36:00", x1: "2015-02-06T01:38:11", y0: 0.8588310736533529, y1: 0.8454562110663246 }, 
+{ x0: "2015-02-06T01:05:42", x1: "2015-02-06T01:25:59", y0: 0.9312935141077318, y1: 0.9210333455478197 }, 
+{ x0: "2015-02-06T01:25:59", x1: "2015-02-06T01:38:11", y0: 0.9210333455478197, y1: 0.8454562110663246 }, 
+{ x0: "2015-02-06T01:38:11", x1: "2015-02-06T01:50:43", y0: 0.8454562110663246, y1: 0.8454562110663246 }, 
+{ x0: "2015-02-06T01:50:43", x1: "2015-02-06T02:05:44", y0: 0.8454562110663246, y1: 0.8454562110663246 }, 
+{ x0: "2015-02-06T02:05:44", x1: "2015-02-06T02:50:57", y0: 0.8454562110663246, y1: 0.8362037376328325 }, 
+{ x0: "2015-02-06T02:50:57", x1: "2015-02-06T03:05:57", y0: 0.8362037376328325, y1: 0.8362037376328325 }, 
+{ x0: "2015-02-06T03:05:57", x1: "2015-02-06T04:51:57", y0: 0.8362037376328325, y1: 0.8231037009893733 }, 
+{ x0: "2015-02-06T04:51:57", x1: "2015-02-06T05:06:57", y0: 0.8231037009893733, y1: 0.8231037009893733 }, 
+{ x0: "2015-02-06T05:06:57", x1: "2015-02-06T05:21:58", y0: 0.8231037009893733, y1: 0.8231037009893733 }, 
+{ x0: "2015-02-06T05:21:58", x1: "2015-02-06T05:36:58", y0: 0.8231037009893733, y1: 0.8231037009893733 }, 
+{ x0: "2015-02-06T05:36:58", x1: "2015-02-06T05:51:58", y0: 0.8231037009893733, y1: 0.8172407475265665 }, 
 
     ];
     
@@ -547,8 +547,8 @@
         Timegraph.draw({
             element: "drain-graph",
             data: drainGraphData,
-            startTime: "2015-02-03T01:39:11",
-            endTime: "2015-02-06T01:39:11",
+            startTime: "2015-02-03T06:00:27",
+            endTime: "2015-02-06T06:00:28",
         });
     }
 
@@ -574,7 +574,7 @@
           CONNECTED STANDBY
         </td><td>Supported</td></tr><tr><td class="label">
           REPORT TIME
-        </td><td class="dateTime"><span class="date">2015-02-06 </span><span class="time">01:39:11</span></td></tr></table><h2>
+        </td><td class="dateTime"><span class="date">2015-02-06 </span><span class="time">06:00:28</span></td></tr></table><h2>
       Installed batteries
     </h2><div class="explanation">
       Information about each currently installed battery
@@ -592,12 +592,12 @@
             SOURCE
           </td><td colspan="2" class="centered">
             CAPACITY REMAINING
-          </td></tr></thead><tr class="even dc 1"><td class="dateTime"><span class="date">2015-02-03 </span><span class="time">01:49:40</span></td><td class="state">
+          </td></tr></thead><tr class="even dc 1"><td class="dateTime"><span class="date">2015-02-03 </span><span class="time">06:46:47</span></td><td class="state">
             Connected standby
           </td><td class="acdc">
         Battery
-      </td><td class="percent">32 %
-        </td><td class="mw">3,443 mWh
+      </td><td class="percent">29 %
+        </td><td class="mw">3,135 mWh
         </td></tr><tr class="odd suspend 2"><td class="dateTime"><span class="date"> </span><span class="time">09:47:52</span></td><td class="state">
         Suspended
       </td><td class="acdc"></td><td class="percent">26 %
@@ -858,12 +858,12 @@
         Battery
       </td><td class="percent">85 %
         </td><td class="mw">9,229 mWh
-        </td></tr><tr class="odd dc 46"><td class="dateTime"><span class="date"> </span><span class="time">01:38:11</span></td><td class="state">
+        </td></tr><tr class="odd dc 46"><td class="dateTime"><span class="date"> </span><span class="time">05:51:58</span></td><td class="state">
         Report generated
       </td><td class="acdc">
         Battery
-      </td><td class="percent">85 %
-        </td><td class="mw">9,229 mWh
+      </td><td class="percent">82 %
+        </td><td class="mw">8,921 mWh
         </td></tr></table><h2>Battery usage</h2><div class="explanation">
       Battery drains over the last 3 days
     </div><canvas id="drain-graph" width="864" height="400"></canvas><table><colgroup><col/><col class="col2"/><col style="width: 10em;"/><col class="percent"/><col style="width: 11em;"/></colgroup><thead><tr><td>
@@ -874,10 +874,10 @@
             DURATION
           </td><td class="centered" colspan="2">
             ENERGY DRAINED
-          </td></tr></thead><tr class="even dc 1"><td class="dateTime"><span class="date">2015-02-03 </span><span class="time">01:49:40</span></td><td class="state">
+          </td></tr></thead><tr class="even dc 1"><td class="dateTime"><span class="date">2015-02-03 </span><span class="time">06:46:47</span></td><td class="state">
             Connected standby
-          </td><td class="hms">7:58:11</td><td class="percent">6 %
-        </td><td class="mw">679 mWh
+          </td><td class="hms">3:01:04</td><td class="percent">3 %
+        </td><td class="mw">371 mWh
         </td></tr><tr class="noncontigbreak"><td colspan="5"> </td></tr><tr class="odd dc 2"><td class="dateTime"><span class="date"> </span><span class="time">09:51:45</span></td><td class="state">
         Active
       </td><td class="hms">0:16:28</td><td class="percent">7 %
@@ -993,7 +993,9 @@
         </td><td class="mw">825 mWh
         </td></tr><tr class="odd dc 34"><td class="dateTime"><span class="date"> </span><span class="time">01:38:11</span></td><td class="state">
             Connected standby
-          </td><td class="hms">0:00:00</td><td class="nullValue">-</td><td class="nullValue">-</td></tr></table><h2>
+          </td><td class="hms">4:13:47</td><td class="percent">3 %
+        </td><td class="mw">308 mWh
+        </td></tr></table><h2>
       Usage history
     </h2><div class="explanation2">
       History of system usage on AC and battery
@@ -1035,7 +1037,7 @@
       - 2014-11-17</td><td class="hms">22:38:04</td><td class="hms">49:32:53</td><td class="colBreak"> </td><td class="hms">30:14:23</td><td class="hms">37:15:40</td></tr><tr class="odd  22"><td class="dateTime">2014-11-17
       - 2014-11-24</td><td class="hms">15:21:35</td><td class="hms">50:40:06</td><td class="colBreak"> </td><td class="hms">22:43:24</td><td class="hms">36:22:52</td></tr><tr class="even  23"><td class="dateTime">2014-11-24
       - 2014-12-01</td><td class="hms">26:21:07</td><td class="hms">90:03:03</td><td class="colBreak"> </td><td class="hms">14:36:22</td><td class="hms">20:37:10</td></tr><tr class="odd  24"><td class="dateTime">2014-12-01
-      - 2014-12-08</td><td class="hms">0:23:34</td><td class="hms">1:49:46</td><td class="colBreak"> </td><td class="hms">4:52:53</td><td class="hms">1:58:21</td></tr><tr class="even  25"><td class="dateTime">2014-12-08
+      - 2014-12-08</td><td class="hms">0:23:34</td><td class="hms">1:49:46</td><td class="colBreak"> </td><td class="hms">1:56:50</td><td class="hms">0:50:12</td></tr><tr class="even  25"><td class="dateTime">2014-12-08
       - 2014-12-15</td><td class="hms">20:34:44</td><td class="hms">59:01:57</td><td class="colBreak"> </td><td class="hms">32:43:24</td><td class="hms">49:37:34</td></tr><tr class="odd  26"><td class="dateTime">2014-12-15
       - 2014-12-22</td><td class="hms">19:09:29</td><td class="hms">60:52:07</td><td class="colBreak"> </td><td class="hms">44:13:57</td><td class="hms">31:53:37</td></tr><tr class="even  27"><td class="dateTime">2014-12-22
       - 2014-12-29</td><td class="hms">19:12:10</td><td class="hms">31:06:40</td><td class="colBreak"> </td><td class="hms">12:18:06</td><td class="hms">74:41:07</td></tr><tr class="odd  28"><td class="dateTime">2014-12-29
@@ -1120,7 +1122,7 @@
       - 2014-12-01</td><td class="mw">13,886 mWh
         </td><td class="mw">15,188 mWh
         </td></tr><tr class="odd  24"><td class="dateTime">2014-12-01
-      - 2014-12-08</td><td class="mw">13,532 mWh
+      - 2014-12-08</td><td class="mw">13,542 mWh
         </td><td class="mw">15,188 mWh
         </td></tr><tr class="even  25"><td class="dateTime">2014-12-08
       - 2014-12-15</td><td class="mw">13,713 mWh
@@ -1335,7 +1337,7 @@
       
               / 16 h
             </span></td></tr><tr style="vertical-align:top" class="odd  24"><td class="dateTime">2014-12-01
-      - 2014-12-08</td><td class="hms">6:48:51</td><td class="hms"><div style="height:1em;">39:06:32</div><span style="font-size:9pt; ">41 %
+      - 2014-12-08</td><td class="hms">6:49:09</td><td class="hms"><div style="height:1em;">39:08:16</div><span style="font-size:9pt; ">41 %
       
               / 16 h
             </span></td><td class="colBreak"> </td><td class="hms">7:38:53</td><td class="hms"><div style="height:1em;">43:53:42</div><span style="font-size:9pt; ">36 %
