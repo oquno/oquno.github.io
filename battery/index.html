@@ -541,6 +541,8 @@
 { x0: "2015-02-28T10:55:00", x1: "2015-02-28T10:55:03", y0: 0.9996358339402768, y1: 0.9979068074262832 }, 
 { x0: "2015-02-28T10:55:03", x1: "2015-02-28T10:55:20", y0: 0.9979068074262832, y1: 0.9972697488168911 }, 
 { x0: "2015-02-28T10:55:20", x1: "2015-02-28T10:55:21", y0: 0.9972697488168911, y1: 0.9972697488168911 }, 
+{ x0: "2015-02-28T12:32:00", x1: "2015-02-28T12:35:37", y0: 1, y1: 1 }, 
+{ x0: "2015-02-28T12:35:37", x1: "2015-02-28T12:39:00", y0: 1, y1: 0.9932572147801852 }, 
 
     ];
     
@@ -548,8 +550,8 @@
         Timegraph.draw({
             element: "drain-graph",
             data: drainGraphData,
-            startTime: "2015-02-25T12:12:24",
-            endTime: "2015-02-28T12:12:25",
+            startTime: "2015-02-25T12:39:37",
+            endTime: "2015-02-28T12:39:39",
         });
     }
 
@@ -575,14 +577,14 @@
           CONNECTED STANDBY
         </td><td>Supported</td></tr><tr><td class="label">
           REPORT TIME
-        </td><td class="dateTime"><span class="date">2015-02-28 </span><span class="time">12:12:25</span></td></tr></table><h2>
+        </td><td class="dateTime"><span class="date">2015-02-28 </span><span class="time">12:39:39</span></td></tr></table><h2>
       Installed batteries
     </h2><div class="explanation">
       Information about each currently installed battery
     </div><table><colgroup><col style="width: 15em;"/><col style="width: 14em;"/></colgroup><thead><tr><td> </td><td>
                   BATTERY
                   1</td></tr></thead><tr><td><span class="label">NAME</span></td><td>SR Real Battery</td></tr><tr><td><span class="label">MANUFACTURER</span></td><td>Intel SR 1</td></tr><tr><td><span class="label">SERIAL NUMBER</span></td><td>123456789</td></tr><tr><td><span class="label">CHEMISTRY</span></td><td>LION</td></tr><tr><td><span class="label">DESIGN CAPACITY</span></td><td>15,188 mWh
-      </td></tr><tr style="height:0.4em;"></tr><tr><td><span class="label">FULL CHARGE CAPACITY</span></td><td>11,115 mWh
+      </td></tr><tr style="height:0.4em;"></tr><tr><td><span class="label">FULL CHARGE CAPACITY</span></td><td>11,123 mWh
       </td></tr><tr><td><span class="label">CYCLE COUNT</span></td><td>126</td></tr></table><h2>Recent usage</h2><div class="explanation">
       Power states over the last 3 days
     </div><table><colgroup><col/><col class="col2"/><col style="width: 4.2em;"/><col class="percent"/><col style="width: 11em;"/></colgroup><thead><tr><td>
@@ -923,12 +925,18 @@
         AC
       </td><td class="percent">99 %
         </td><td class="mw">10,909 mWh
-        </td></tr><tr class="even  59"><td class="dateTime"><span class="date"> </span><span class="time">12:11:00</span></td><td class="state">
+        </td></tr><tr class="even dc 59"><td class="dateTime"><span class="date"> </span><span class="time">12:35:37</span></td><td class="state">
+        Active
+      </td><td class="acdc">
+        Battery
+      </td><td class="percent">100 %
+        </td><td class="mw">11,123 mWh
+        </td></tr><tr class="odd dc 60"><td class="dateTime"><span class="date"> </span><span class="time">12:39:00</span></td><td class="state">
         Report generated
       </td><td class="acdc">
-        AC
-      </td><td class="percent">100 %
-        </td><td class="mw">11,115 mWh
+        Battery
+      </td><td class="percent">99 %
+        </td><td class="mw">11,048 mWh
         </td></tr></table><h2>Battery usage</h2><div class="explanation">
       Battery drains over the last 3 days
     </div><canvas id="drain-graph" width="864" height="400"></canvas><table><colgroup><col/><col class="col2"/><col style="width: 10em;"/><col class="percent"/><col style="width: 11em;"/></colgroup><thead><tr><td>
@@ -1067,7 +1075,11 @@
       </td><td class="hms">0:00:17</td><td class="nullValue">-</td><td class="mw">7 mWh
         </td></tr><tr class="odd dc 40"><td class="dateTime"><span class="date"> </span><span class="time">10:55:20</span></td><td class="state">
             Connected standby
-          </td><td class="hms">0:00:00</td><td class="nullValue">-</td><td class="nullValue">-</td></tr></table><h2>
+          </td><td class="hms">0:00:00</td><td class="nullValue">-</td><td class="nullValue">-</td></tr><tr class="noncontigbreak"><td colspan="5"> </td></tr><tr class="even dc 41"><td class="dateTime"><span class="date"> </span><span class="time">12:35:37</span></td><td class="state">
+        Active
+      </td><td class="hms">0:03:22</td><td class="percent">1 %
+        </td><td class="mw">75 mWh
+        </td></tr></table><h2>
       Usage history
     </h2><div class="explanation2">
       History of system usage on AC and battery
@@ -1569,7 +1581,7 @@
       Current estimate of battery life based on all observed drains since OS install
     </div><table><colgroup><col/><col class="col2"/><col style="width: 10em;"/><col style=""/><col style="width: 10em;"/><col style="width: 10em;"/><col style="width: 10em;"/></colgroup><tr class="even" style="vertical-align:top"><td>
           Since OS install
-        </td><td class="hms">4:23:09</td><td class="hms"><div style="height:1em;">57:38:56</div><span style="font-size:9pt; ">28 %
+        </td><td class="hms">4:23:20</td><td class="hms"><div style="height:1em;">57:41:25</div><span style="font-size:9pt; ">28 %
       
                 / 16 h
               </span></td><td class="colBreak"> </td><td class="hms">5:59:35</td><td class="hms"><div style="height:1em;">78:46:25</div><span style="font-size:9pt; ">20 %
