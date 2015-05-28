@@ -466,11 +466,7 @@
     };
     
     drainGraphData = [
-    { x0: "2015-05-25T19:08:42", x1: "2015-05-25T20:53:03", y0: 1, y1: 1 }, 
-{ x0: "2015-05-25T20:53:03", x1: "2015-05-25T20:53:06", y0: 1, y1: 1 }, 
-{ x0: "2015-05-25T20:53:06", x1: "2015-05-25T20:53:10", y0: 1, y1: 0.9996534696352768 }, 
-{ x0: "2015-05-25T20:53:10", x1: "2015-05-25T20:53:27", y0: 0.9996534696352768, y1: 0.9983539807675648 }, 
-{ x0: "2015-05-25T22:01:00", x1: "2015-05-25T22:28:28", y0: 1, y1: 1 }, 
+    { x0: "2015-05-25T22:01:00", x1: "2015-05-25T22:28:28", y0: 1, y1: 1 }, 
 { x0: "2015-05-25T22:28:28", x1: "2015-05-25T22:59:00", y0: 1, y1: 0.9264428840554889 }, 
 { x0: "2015-05-25T22:59:00", x1: "2015-05-25T23:04:00", y0: 0.9264428840554889, y1: 0.9264428840554889 }, 
 { x0: "2015-05-25T23:04:00", x1: "2015-05-25T23:59:00", y0: 0.9264428840554889, y1: 0.7806131186847063 }, 
@@ -522,6 +518,9 @@
 { x0: "2015-05-28T08:59:00", x1: "2015-05-28T09:04:00", y0: 0.8146628113049156, y1: 0.7842552000746199 }, 
 { x0: "2015-05-28T09:04:00", x1: "2015-05-28T10:00:00", y0: 0.7842552000746199, y1: 0.598824736498461 }, 
 { x0: "2015-05-28T10:00:00", x1: "2015-05-28T10:04:00", y0: 0.598824736498461, y1: 0.5656188788359295 }, 
+{ x0: "2015-05-28T21:45:49", x1: "2015-05-28T21:46:17", y0: 1.0075938189845474, y1: 1 }, 
+{ x0: "2015-05-28T21:46:17", x1: "2015-05-28T21:49:00", y0: 1, y1: 0.9865918850232233 }, 
+{ x0: "2015-05-28T21:49:00", x1: "2015-05-28T21:53:16", y0: 0.9865918850232233, y1: 0.9697660152484445 }, 
 
     ];
     
@@ -529,8 +528,8 @@
         Timegraph.draw({
             element: "drain-graph",
             data: drainGraphData,
-            startTime: "2015-05-25T18:00:49",
-            endTime: "2015-05-28T18:00:50",
+            startTime: "2015-05-25T21:56:04",
+            endTime: "2015-05-28T21:56:05",
         });
     }
 
@@ -556,14 +555,14 @@
           CONNECTED STANDBY
         </td><td>Supported</td></tr><tr><td class="label">
           REPORT TIME
-        </td><td class="dateTime"><span class="date">2015-05-28 </span><span class="time">18:00:50</span></td></tr></table><h2>
+        </td><td class="dateTime"><span class="date">2015-05-28 </span><span class="time">21:56:05</span></td></tr></table><h2>
       Installed batteries
     </h2><div class="explanation">
       Information about each currently installed battery
     </div><table><colgroup><col style="width: 15em;"/><col style="width: 14em;"/></colgroup><thead><tr><td> </td><td>
                   BATTERY
                   1</td></tr></thead><tr><td><span class="label">NAME</span></td><td>SR Real Battery</td></tr><tr><td><span class="label">MANUFACTURER</span></td><td>Intel SR 1</td></tr><tr><td><span class="label">SERIAL NUMBER</span></td><td>123456789</td></tr><tr><td><span class="label">CHEMISTRY</span></td><td>LION</td></tr><tr><td><span class="label">DESIGN CAPACITY</span></td><td>15,188 mWh
-      </td></tr><tr style="height:0.4em;"></tr><tr><td><span class="label">FULL CHARGE CAPACITY</span></td><td>11,325 mWh
+      </td></tr><tr style="height:0.4em;"></tr><tr><td><span class="label">FULL CHARGE CAPACITY</span></td><td>11,411 mWh
       </td></tr><tr><td><span class="label">CYCLE COUNT</span></td><td>163</td></tr></table><h2>Recent usage</h2><div class="explanation">
       Power states over the last 3 days
     </div><table><colgroup><col/><col class="col2"/><col style="width: 4.2em;"/><col class="percent"/><col style="width: 11em;"/></colgroup><thead><tr><td>
@@ -574,268 +573,256 @@
             SOURCE
           </td><td colspan="2" class="centered">
             CAPACITY REMAINING
-          </td></tr></thead><tr class="even  1"><td class="dateTime"><span class="date">2015-05-25 </span><span class="time">18:53:42</span></td><td class="state">
-            Connected standby
-          </td><td class="acdc">
-        AC
-      </td><td class="percent">100 %
-        </td><td class="mw">11,460 mWh
-        </td></tr><tr class="odd dc 2"><td class="dateTime"><span class="date"> </span><span class="time">20:53:03</span></td><td class="state">
-            Connected standby
-          </td><td class="acdc">
-        Battery
-      </td><td class="percent">100 %
-        </td><td class="mw">11,543 mWh
-        </td></tr><tr class="even dc 3"><td class="dateTime"><span class="date"> </span><span class="time">20:53:06</span></td><td class="state">
-        Active
-      </td><td class="acdc">
-        Battery
-      </td><td class="percent">100 %
-        </td><td class="mw">11,543 mWh
-        </td></tr><tr class="odd dc 4"><td class="dateTime"><span class="date"> </span><span class="time">20:53:10</span></td><td class="state">
-            Connected standby
-          </td><td class="acdc">
-        Battery
-      </td><td class="percent">100 %
-        </td><td class="mw">11,539 mWh
-        </td></tr><tr class="even dc 5"><td class="dateTime"><span class="date"> </span><span class="time">20:53:27</span></td><td class="state">
-        Active
-      </td><td class="acdc">
-        Battery
-      </td><td class="percent">100 %
-        </td><td class="mw">11,524 mWh
-        </td></tr><tr class="odd  6"><td class="dateTime"><span class="date"> </span><span class="time">20:58:14</span></td><td class="state">
+          </td></tr></thead><tr class="even  1"><td class="dateTime"><span class="date">2015-05-25 </span><span class="time">22:01:00</span></td><td class="state">
         Active
       </td><td class="acdc">
         AC
-      </td><td class="percent">98 %
-        </td><td class="mw">11,344 mWh
-        </td></tr><tr class="even dc 7"><td class="dateTime"><span class="date"> </span><span class="time">22:28:28</span></td><td class="state">
+      </td><td class="percent">100 %
+        </td><td class="mw">11,666 mWh
+        </td></tr><tr class="odd dc 2"><td class="dateTime"><span class="date"> </span><span class="time">22:28:28</span></td><td class="state">
         Active
       </td><td class="acdc">
         Battery
       </td><td class="percent">100 %
         </td><td class="mw">11,678 mWh
-        </td></tr><tr class="odd dc 8"><td class="dateTime"><span class="date">2015-05-26 </span><span class="time">02:58:40</span></td><td class="state">
+        </td></tr><tr class="even dc 3"><td class="dateTime"><span class="date">2015-05-26 </span><span class="time">02:58:40</span></td><td class="state">
             Connected standby
           </td><td class="acdc">
         Battery
       </td><td class="percent">28 %
         </td><td class="mw">3,285 mWh
-        </td></tr><tr class="even dc 9"><td class="dateTime"><span class="date"> </span><span class="time">02:58:41</span></td><td class="state">
+        </td></tr><tr class="odd dc 4"><td class="dateTime"><span class="date"> </span><span class="time">02:58:41</span></td><td class="state">
         Active
       </td><td class="acdc">
         Battery
       </td><td class="percent">28 %
         </td><td class="mw">3,285 mWh
-        </td></tr><tr class="odd dc 10"><td class="dateTime"><span class="date"> </span><span class="time">02:58:43</span></td><td class="state">
+        </td></tr><tr class="even dc 5"><td class="dateTime"><span class="date"> </span><span class="time">02:58:43</span></td><td class="state">
             Connected standby
           </td><td class="acdc">
         Battery
       </td><td class="percent">28 %
         </td><td class="mw">3,285 mWh
-        </td></tr><tr class="even dc 11"><td class="dateTime"><span class="date"> </span><span class="time">02:58:44</span></td><td class="state">
+        </td></tr><tr class="odd dc 6"><td class="dateTime"><span class="date"> </span><span class="time">02:58:44</span></td><td class="state">
         Active
       </td><td class="acdc">
         Battery
       </td><td class="percent">28 %
         </td><td class="mw">3,285 mWh
-        </td></tr><tr class="odd dc 12"><td class="dateTime"><span class="date"> </span><span class="time">03:06:03</span></td><td class="state">
+        </td></tr><tr class="even dc 7"><td class="dateTime"><span class="date"> </span><span class="time">03:06:03</span></td><td class="state">
             Connected standby
           </td><td class="acdc">
         Battery
       </td><td class="percent">26 %
         </td><td class="mw">3,004 mWh
-        </td></tr><tr class="even dc 13"><td class="dateTime"><span class="date"> </span><span class="time">03:10:43</span></td><td class="state">
+        </td></tr><tr class="odd dc 8"><td class="dateTime"><span class="date"> </span><span class="time">03:10:43</span></td><td class="state">
         Active
       </td><td class="acdc">
         Battery
       </td><td class="percent">24 %
         </td><td class="mw">2,846 mWh
-        </td></tr><tr class="odd dc 14"><td class="dateTime"><span class="date"> </span><span class="time">03:43:33</span></td><td class="state">
+        </td></tr><tr class="even dc 9"><td class="dateTime"><span class="date"> </span><span class="time">03:43:33</span></td><td class="state">
             Connected standby
           </td><td class="acdc">
         Battery
       </td><td class="percent">15 %
         </td><td class="mw">1,744 mWh
-        </td></tr><tr class="even suspend 15"><td class="dateTime"><span class="date"> </span><span class="time">04:56:00</span></td><td class="state">
+        </td></tr><tr class="odd suspend 10"><td class="dateTime"><span class="date"> </span><span class="time">04:56:00</span></td><td class="state">
         Suspended
       </td><td class="acdc"></td><td class="percent">4 %
         </td><td class="mw">446 mWh
-        </td></tr><tr class="odd  16"><td class="dateTime"><span class="date"> </span><span class="time">22:56:51</span></td><td class="state">
+        </td></tr><tr class="even  11"><td class="dateTime"><span class="date"> </span><span class="time">22:56:51</span></td><td class="state">
         Active
       </td><td class="acdc">
         AC
       </td><td class="percent">6 %
         </td><td class="mw">660 mWh
-        </td></tr><tr class="even  17"><td class="dateTime"><span class="date"> </span><span class="time">23:56:48</span></td><td class="state">
+        </td></tr><tr class="odd  12"><td class="dateTime"><span class="date"> </span><span class="time">23:56:48</span></td><td class="state">
             Connected standby
           </td><td class="acdc">
         AC
       </td><td class="percent">42 %
         </td><td class="mw">4,766 mWh
-        </td></tr><tr class="odd  18"><td class="dateTime"><span class="date">2015-05-27 </span><span class="time">00:13:15</span></td><td class="state">
+        </td></tr><tr class="even  13"><td class="dateTime"><span class="date">2015-05-27 </span><span class="time">00:13:15</span></td><td class="state">
         Active
       </td><td class="acdc">
         AC
       </td><td class="percent">54 %
         </td><td class="mw">6,131 mWh
-        </td></tr><tr class="even  19"><td class="dateTime"><span class="date"> </span><span class="time">09:20:20</span></td><td class="state">
+        </td></tr><tr class="odd  14"><td class="dateTime"><span class="date"> </span><span class="time">09:20:20</span></td><td class="state">
             Connected standby
           </td><td class="acdc">
         AC
       </td><td class="percent">101 %
         </td><td class="mw">11,666 mWh
-        </td></tr><tr class="odd  20"><td class="dateTime"><span class="date"> </span><span class="time">09:54:30</span></td><td class="state">
+        </td></tr><tr class="even  15"><td class="dateTime"><span class="date"> </span><span class="time">09:54:30</span></td><td class="state">
         Active
       </td><td class="acdc">
         AC
       </td><td class="percent">101 %
         </td><td class="mw">11,674 mWh
-        </td></tr><tr class="even dc 21"><td class="dateTime"><span class="date"> </span><span class="time">10:05:26</span></td><td class="state">
+        </td></tr><tr class="odd dc 16"><td class="dateTime"><span class="date"> </span><span class="time">10:05:26</span></td><td class="state">
         Active
       </td><td class="acdc">
         Battery
       </td><td class="percent">100 %
         </td><td class="mw">11,674 mWh
-        </td></tr><tr class="odd dc 22"><td class="dateTime"><span class="date"> </span><span class="time">10:12:23</span></td><td class="state">
+        </td></tr><tr class="even dc 17"><td class="dateTime"><span class="date"> </span><span class="time">10:12:23</span></td><td class="state">
             Connected standby
           </td><td class="acdc">
         Battery
       </td><td class="percent">97 %
         </td><td class="mw">11,366 mWh
-        </td></tr><tr class="even  23"><td class="dateTime"><span class="date"> </span><span class="time">10:27:50</span></td><td class="state">
+        </td></tr><tr class="odd  18"><td class="dateTime"><span class="date"> </span><span class="time">10:27:50</span></td><td class="state">
             Connected standby
           </td><td class="acdc">
         AC
       </td><td class="percent">96 %
         </td><td class="mw">11,265 mWh
-        </td></tr><tr class="odd  24"><td class="dateTime"><span class="date"> </span><span class="time">10:27:52</span></td><td class="state">
+        </td></tr><tr class="even  19"><td class="dateTime"><span class="date"> </span><span class="time">10:27:52</span></td><td class="state">
         Active
       </td><td class="acdc">
         AC
       </td><td class="percent">96 %
         </td><td class="mw">11,265 mWh
-        </td></tr><tr class="even  25"><td class="dateTime"><span class="date"> </span><span class="time">10:32:21</span></td><td class="state">
+        </td></tr><tr class="odd  20"><td class="dateTime"><span class="date"> </span><span class="time">10:32:21</span></td><td class="state">
             Connected standby
           </td><td class="acdc">
         AC
       </td><td class="percent">97 %
         </td><td class="mw">11,378 mWh
-        </td></tr><tr class="odd  26"><td class="dateTime"><span class="date"> </span><span class="time">22:35:53</span></td><td class="state">
+        </td></tr><tr class="even  21"><td class="dateTime"><span class="date"> </span><span class="time">22:35:53</span></td><td class="state">
         Active
       </td><td class="acdc">
         AC
       </td><td class="percent">101 %
         </td><td class="mw">11,805 mWh
-        </td></tr><tr class="even dc 27"><td class="dateTime"><span class="date"> </span><span class="time">22:37:08</span></td><td class="state">
+        </td></tr><tr class="odd dc 22"><td class="dateTime"><span class="date"> </span><span class="time">22:37:08</span></td><td class="state">
         Active
       </td><td class="acdc">
         Battery
       </td><td class="percent">100 %
         </td><td class="mw">11,805 mWh
-        </td></tr><tr class="odd dc 28"><td class="dateTime"><span class="date"> </span><span class="time">22:38:29</span></td><td class="state">
+        </td></tr><tr class="even dc 23"><td class="dateTime"><span class="date"> </span><span class="time">22:38:29</span></td><td class="state">
             Connected standby
           </td><td class="acdc">
         Battery
       </td><td class="percent">99 %
         </td><td class="mw">11,711 mWh
-        </td></tr><tr class="even dc 29"><td class="dateTime"><span class="date"> </span><span class="time">22:44:33</span></td><td class="state">
+        </td></tr><tr class="odd dc 24"><td class="dateTime"><span class="date"> </span><span class="time">22:44:33</span></td><td class="state">
         Active
       </td><td class="acdc">
         Battery
       </td><td class="percent">99 %
         </td><td class="mw">11,685 mWh
-        </td></tr><tr class="odd dc 30"><td class="dateTime"><span class="date"> </span><span class="time">22:45:23</span></td><td class="state">
+        </td></tr><tr class="even dc 25"><td class="dateTime"><span class="date"> </span><span class="time">22:45:23</span></td><td class="state">
             Connected standby
           </td><td class="acdc">
         Battery
       </td><td class="percent">99 %
         </td><td class="mw">11,648 mWh
-        </td></tr><tr class="even dc 31"><td class="dateTime"><span class="date"> </span><span class="time">22:45:31</span></td><td class="state">
+        </td></tr><tr class="odd dc 26"><td class="dateTime"><span class="date"> </span><span class="time">22:45:31</span></td><td class="state">
         Active
       </td><td class="acdc">
         Battery
       </td><td class="percent">99 %
         </td><td class="mw">11,640 mWh
-        </td></tr><tr class="odd dc 32"><td class="dateTime"><span class="date">2015-05-28 </span><span class="time">00:28:03</span></td><td class="state">
+        </td></tr><tr class="even dc 27"><td class="dateTime"><span class="date">2015-05-28 </span><span class="time">00:28:03</span></td><td class="state">
             Connected standby
           </td><td class="acdc">
         Battery
       </td><td class="percent">67 %
         </td><td class="mw">7,961 mWh
-        </td></tr><tr class="even  33"><td class="dateTime"><span class="date"> </span><span class="time">01:42:50</span></td><td class="state">
+        </td></tr><tr class="odd  28"><td class="dateTime"><span class="date"> </span><span class="time">01:42:50</span></td><td class="state">
             Connected standby
           </td><td class="acdc">
         AC
       </td><td class="percent">67 %
         </td><td class="mw">7,883 mWh
-        </td></tr><tr class="odd  34"><td class="dateTime"><span class="date"> </span><span class="time">01:42:53</span></td><td class="state">
+        </td></tr><tr class="even  29"><td class="dateTime"><span class="date"> </span><span class="time">01:42:53</span></td><td class="state">
         Active
       </td><td class="acdc">
         AC
       </td><td class="percent">67 %
         </td><td class="mw">7,883 mWh
-        </td></tr><tr class="even  35"><td class="dateTime"><span class="date"> </span><span class="time">01:42:57</span></td><td class="state">
+        </td></tr><tr class="odd  30"><td class="dateTime"><span class="date"> </span><span class="time">01:42:57</span></td><td class="state">
             Connected standby
           </td><td class="acdc">
         AC
       </td><td class="percent">67 %
         </td><td class="mw">7,886 mWh
-        </td></tr><tr class="odd dc 36"><td class="dateTime"><span class="date"> </span><span class="time">02:27:21</span></td><td class="state">
+        </td></tr><tr class="even dc 31"><td class="dateTime"><span class="date"> </span><span class="time">02:27:21</span></td><td class="state">
             Connected standby
           </td><td class="acdc">
         Battery
       </td><td class="percent">98 %
         </td><td class="mw">10,489 mWh
-        </td></tr><tr class="even dc 37"><td class="dateTime"><span class="date"> </span><span class="time">02:27:22</span></td><td class="state">
+        </td></tr><tr class="odd dc 32"><td class="dateTime"><span class="date"> </span><span class="time">02:27:22</span></td><td class="state">
         Active
       </td><td class="acdc">
         Battery
       </td><td class="percent">98 %
         </td><td class="mw">10,489 mWh
-        </td></tr><tr class="odd dc 38"><td class="dateTime"><span class="date"> </span><span class="time">02:27:28</span></td><td class="state">
+        </td></tr><tr class="even dc 33"><td class="dateTime"><span class="date"> </span><span class="time">02:27:28</span></td><td class="state">
             Connected standby
           </td><td class="acdc">
         Battery
       </td><td class="percent">98 %
         </td><td class="mw">10,481 mWh
-        </td></tr><tr class="even dc 39"><td class="dateTime"><span class="date"> </span><span class="time">02:28:30</span></td><td class="state">
+        </td></tr><tr class="odd dc 34"><td class="dateTime"><span class="date"> </span><span class="time">02:28:30</span></td><td class="state">
         Active
       </td><td class="acdc">
         Battery
       </td><td class="percent">98 %
         </td><td class="mw">10,470 mWh
-        </td></tr><tr class="odd dc 40"><td class="dateTime"><span class="date"> </span><span class="time">03:19:48</span></td><td class="state">
+        </td></tr><tr class="even dc 35"><td class="dateTime"><span class="date"> </span><span class="time">03:19:48</span></td><td class="state">
             Connected standby
           </td><td class="acdc">
         Battery
       </td><td class="percent">84 %
         </td><td class="mw">9,034 mWh
-        </td></tr><tr class="even dc 41"><td class="dateTime"><span class="date"> </span><span class="time">08:53:47</span></td><td class="state">
+        </td></tr><tr class="odd dc 36"><td class="dateTime"><span class="date"> </span><span class="time">08:53:47</span></td><td class="state">
         Active
       </td><td class="acdc">
         Battery
       </td><td class="percent">81 %
         </td><td class="mw">8,734 mWh
-        </td></tr><tr class="odd  42"><td class="dateTime"><span class="date"> </span><span class="time">10:16:02</span></td><td class="state">
+        </td></tr><tr class="even  37"><td class="dateTime"><span class="date"> </span><span class="time">10:16:02</span></td><td class="state">
         Active
       </td><td class="acdc">
         AC
       </td><td class="percent">52 %
         </td><td class="mw">5,591 mWh
-        </td></tr><tr class="even  43"><td class="dateTime"><span class="date"> </span><span class="time">10:21:11</span></td><td class="state">
+        </td></tr><tr class="odd  38"><td class="dateTime"><span class="date"> </span><span class="time">10:21:11</span></td><td class="state">
             Connected standby
           </td><td class="acdc">
         AC
       </td><td class="percent">55 %
         </td><td class="mw">5,929 mWh
-        </td></tr><tr class="odd  44"><td class="dateTime"><span class="date"> </span><span class="time">17:54:21</span></td><td class="state">
-        Report generated
+        </td></tr><tr class="even  39"><td class="dateTime"><span class="date"> </span><span class="time">21:45:49</span></td><td class="state">
+        Active
       </td><td class="acdc">
         AC
+      </td><td class="percent">101 %
+        </td><td class="mw">11,411 mWh
+        </td></tr><tr class="odd dc 40"><td class="dateTime"><span class="date"> </span><span class="time">21:46:17</span></td><td class="state">
+        Active
+      </td><td class="acdc">
+        Battery
       </td><td class="percent">100 %
-        </td><td class="mw">11,325 mWh
+        </td><td class="mw">11,411 mWh
+        </td></tr><tr class="even dc 41"><td class="dateTime"><span class="date"> </span><span class="time">21:53:16</span></td><td class="state">
+            Connected standby
+          </td><td class="acdc">
+        Battery
+      </td><td class="percent">97 %
+        </td><td class="mw">11,066 mWh
+        </td></tr><tr class="odd dc 42"><td class="dateTime"><span class="date"> </span><span class="time">21:53:16</span></td><td class="state">
+        Report generated
+      </td><td class="acdc">
+        Battery
+      </td><td class="percent">97 %
+        </td><td class="mw">11,066 mWh
         </td></tr></table><h2>Battery usage</h2><div class="explanation">
       Battery drains over the last 3 days
     </div><canvas id="drain-graph" width="864" height="400"></canvas><table><colgroup><col/><col class="col2"/><col style="width: 10em;"/><col class="percent"/><col style="width: 11em;"/></colgroup><thead><tr><td>
@@ -846,94 +833,88 @@
             DURATION
           </td><td class="centered" colspan="2">
             ENERGY DRAINED
-          </td></tr></thead><tr class="even dc 1"><td class="dateTime"><span class="date">2015-05-25 </span><span class="time">20:53:03</span></td><td class="state">
-            Connected standby
-          </td><td class="hms">0:00:02</td><td class="nullValue">-</td><td class="nullValue">-</td></tr><tr class="odd dc 2"><td class="dateTime"><span class="date"> </span><span class="time">20:53:06</span></td><td class="state">
-        Active
-      </td><td class="hms">0:00:04</td><td class="nullValue">-</td><td class="mw">4 mWh
-        </td></tr><tr class="even dc 3"><td class="dateTime"><span class="date"> </span><span class="time">20:53:10</span></td><td class="state">
-            Connected standby
-          </td><td class="hms">0:00:17</td><td class="nullValue">-</td><td class="mw">15 mWh
-        </td></tr><tr class="odd dc 4"><td class="dateTime"><span class="date"> </span><span class="time">20:53:27</span></td><td class="state">
-        Active
-      </td><td class="hms">0:04:46</td><td class="percent">2 %
-        </td><td class="mw">180 mWh
-        </td></tr><tr class="noncontigbreak"><td colspan="5"> </td></tr><tr class="even dc 5"><td class="dateTime"><span class="date"> </span><span class="time">22:28:28</span></td><td class="state">
+          </td></tr></thead><tr class="even dc 1"><td class="dateTime"><span class="date">2015-05-25 </span><span class="time">22:28:28</span></td><td class="state">
         Active
       </td><td class="hms">4:30:11</td><td class="percent">72 %
         </td><td class="mw">8,393 mWh
-        </td></tr><tr class="odd dc 6"><td class="dateTime"><span class="date">2015-05-26 </span><span class="time">02:58:40</span></td><td class="state">
+        </td></tr><tr class="odd dc 2"><td class="dateTime"><span class="date">2015-05-26 </span><span class="time">02:58:40</span></td><td class="state">
             Connected standby
-          </td><td class="hms">0:00:01</td><td class="nullValue">-</td><td class="nullValue">-</td></tr><tr class="even dc 7"><td class="dateTime"><span class="date"> </span><span class="time">02:58:41</span></td><td class="state">
+          </td><td class="hms">0:00:01</td><td class="nullValue">-</td><td class="nullValue">-</td></tr><tr class="even dc 3"><td class="dateTime"><span class="date"> </span><span class="time">02:58:41</span></td><td class="state">
         Active
-      </td><td class="hms">0:00:01</td><td class="nullValue">-</td><td class="nullValue">-</td></tr><tr class="odd dc 8"><td class="dateTime"><span class="date"> </span><span class="time">02:58:43</span></td><td class="state">
+      </td><td class="hms">0:00:01</td><td class="nullValue">-</td><td class="nullValue">-</td></tr><tr class="odd dc 4"><td class="dateTime"><span class="date"> </span><span class="time">02:58:43</span></td><td class="state">
             Connected standby
-          </td><td class="hms">0:00:00</td><td class="nullValue">-</td><td class="nullValue">-</td></tr><tr class="even dc 9"><td class="dateTime"><span class="date"> </span><span class="time">02:58:44</span></td><td class="state">
+          </td><td class="hms">0:00:00</td><td class="nullValue">-</td><td class="nullValue">-</td></tr><tr class="even dc 5"><td class="dateTime"><span class="date"> </span><span class="time">02:58:44</span></td><td class="state">
         Active
       </td><td class="hms">0:07:19</td><td class="percent">2 %
         </td><td class="mw">281 mWh
-        </td></tr><tr class="odd dc 10"><td class="dateTime"><span class="date"> </span><span class="time">03:06:03</span></td><td class="state">
+        </td></tr><tr class="odd dc 6"><td class="dateTime"><span class="date"> </span><span class="time">03:06:03</span></td><td class="state">
             Connected standby
           </td><td class="hms">0:04:40</td><td class="percent">1 %
         </td><td class="mw">158 mWh
-        </td></tr><tr class="even dc 11"><td class="dateTime"><span class="date"> </span><span class="time">03:10:43</span></td><td class="state">
+        </td></tr><tr class="even dc 7"><td class="dateTime"><span class="date"> </span><span class="time">03:10:43</span></td><td class="state">
         Active
       </td><td class="hms">0:32:50</td><td class="percent">9 %
         </td><td class="mw">1,102 mWh
-        </td></tr><tr class="odd dc 12"><td class="dateTime"><span class="date"> </span><span class="time">03:43:33</span></td><td class="state">
+        </td></tr><tr class="odd dc 8"><td class="dateTime"><span class="date"> </span><span class="time">03:43:33</span></td><td class="state">
             Connected standby
           </td><td class="hms">1:12:26</td><td class="percent">11 %
         </td><td class="mw">1,298 mWh
-        </td></tr><tr class="noncontigbreak"><td colspan="5"> </td></tr><tr class="even dc 13"><td class="dateTime"><span class="date"> </span><span class="time">10:05:26</span></td><td class="state">
+        </td></tr><tr class="noncontigbreak"><td colspan="5"> </td></tr><tr class="even dc 9"><td class="dateTime"><span class="date"> </span><span class="time">10:05:26</span></td><td class="state">
         Active
       </td><td class="hms">0:06:56</td><td class="percent">3 %
         </td><td class="mw">308 mWh
-        </td></tr><tr class="odd dc 14"><td class="dateTime"><span class="date"> </span><span class="time">10:12:23</span></td><td class="state">
+        </td></tr><tr class="odd dc 10"><td class="dateTime"><span class="date"> </span><span class="time">10:12:23</span></td><td class="state">
             Connected standby
           </td><td class="hms">0:15:27</td><td class="percent">1 %
         </td><td class="mw">101 mWh
-        </td></tr><tr class="noncontigbreak"><td colspan="5"> </td></tr><tr class="even dc 15"><td class="dateTime"><span class="date"> </span><span class="time">22:37:08</span></td><td class="state">
+        </td></tr><tr class="noncontigbreak"><td colspan="5"> </td></tr><tr class="even dc 11"><td class="dateTime"><span class="date"> </span><span class="time">22:37:08</span></td><td class="state">
         Active
       </td><td class="hms">0:01:20</td><td class="percent">1 %
         </td><td class="mw">94 mWh
-        </td></tr><tr class="odd dc 16"><td class="dateTime"><span class="date"> </span><span class="time">22:38:29</span></td><td class="state">
+        </td></tr><tr class="odd dc 12"><td class="dateTime"><span class="date"> </span><span class="time">22:38:29</span></td><td class="state">
             Connected standby
           </td><td class="hms">0:06:04</td><td class="nullValue">-</td><td class="mw">26 mWh
-        </td></tr><tr class="even dc 17"><td class="dateTime"><span class="date"> </span><span class="time">22:44:33</span></td><td class="state">
+        </td></tr><tr class="even dc 13"><td class="dateTime"><span class="date"> </span><span class="time">22:44:33</span></td><td class="state">
         Active
       </td><td class="hms">0:00:49</td><td class="nullValue">-</td><td class="mw">37 mWh
-        </td></tr><tr class="odd dc 18"><td class="dateTime"><span class="date"> </span><span class="time">22:45:23</span></td><td class="state">
+        </td></tr><tr class="odd dc 14"><td class="dateTime"><span class="date"> </span><span class="time">22:45:23</span></td><td class="state">
             Connected standby
           </td><td class="hms">0:00:08</td><td class="nullValue">-</td><td class="mw">8 mWh
-        </td></tr><tr class="even dc 19"><td class="dateTime"><span class="date"> </span><span class="time">22:45:31</span></td><td class="state">
+        </td></tr><tr class="even dc 15"><td class="dateTime"><span class="date"> </span><span class="time">22:45:31</span></td><td class="state">
         Active
       </td><td class="hms">1:42:31</td><td class="percent">31 %
         </td><td class="mw">3,679 mWh
-        </td></tr><tr class="odd dc 20"><td class="dateTime"><span class="date">2015-05-28 </span><span class="time">00:28:03</span></td><td class="state">
+        </td></tr><tr class="odd dc 16"><td class="dateTime"><span class="date">2015-05-28 </span><span class="time">00:28:03</span></td><td class="state">
             Connected standby
           </td><td class="hms">1:14:47</td><td class="percent">1 %
         </td><td class="mw">78 mWh
-        </td></tr><tr class="noncontigbreak"><td colspan="5"> </td></tr><tr class="even dc 21"><td class="dateTime"><span class="date"> </span><span class="time">02:27:21</span></td><td class="state">
+        </td></tr><tr class="noncontigbreak"><td colspan="5"> </td></tr><tr class="even dc 17"><td class="dateTime"><span class="date"> </span><span class="time">02:27:21</span></td><td class="state">
             Connected standby
-          </td><td class="hms">0:00:00</td><td class="nullValue">-</td><td class="nullValue">-</td></tr><tr class="odd dc 22"><td class="dateTime"><span class="date"> </span><span class="time">02:27:22</span></td><td class="state">
+          </td><td class="hms">0:00:00</td><td class="nullValue">-</td><td class="nullValue">-</td></tr><tr class="odd dc 18"><td class="dateTime"><span class="date"> </span><span class="time">02:27:22</span></td><td class="state">
         Active
       </td><td class="hms">0:00:06</td><td class="nullValue">-</td><td class="mw">8 mWh
-        </td></tr><tr class="even dc 23"><td class="dateTime"><span class="date"> </span><span class="time">02:27:28</span></td><td class="state">
+        </td></tr><tr class="even dc 19"><td class="dateTime"><span class="date"> </span><span class="time">02:27:28</span></td><td class="state">
             Connected standby
           </td><td class="hms">0:01:01</td><td class="nullValue">-</td><td class="mw">11 mWh
-        </td></tr><tr class="odd dc 24"><td class="dateTime"><span class="date"> </span><span class="time">02:28:30</span></td><td class="state">
+        </td></tr><tr class="odd dc 20"><td class="dateTime"><span class="date"> </span><span class="time">02:28:30</span></td><td class="state">
         Active
       </td><td class="hms">0:51:18</td><td class="percent">13 %
         </td><td class="mw">1,436 mWh
-        </td></tr><tr class="even dc 25"><td class="dateTime"><span class="date"> </span><span class="time">03:19:48</span></td><td class="state">
+        </td></tr><tr class="even dc 21"><td class="dateTime"><span class="date"> </span><span class="time">03:19:48</span></td><td class="state">
             Connected standby
           </td><td class="hms">5:33:58</td><td class="percent">3 %
         </td><td class="mw">300 mWh
-        </td></tr><tr class="odd dc 26"><td class="dateTime"><span class="date"> </span><span class="time">08:53:47</span></td><td class="state">
+        </td></tr><tr class="odd dc 22"><td class="dateTime"><span class="date"> </span><span class="time">08:53:47</span></td><td class="state">
         Active
       </td><td class="hms">1:22:14</td><td class="percent">29 %
         </td><td class="mw">3,143 mWh
-        </td></tr></table><h2>
+        </td></tr><tr class="noncontigbreak"><td colspan="5"> </td></tr><tr class="even dc 23"><td class="dateTime"><span class="date"> </span><span class="time">21:46:17</span></td><td class="state">
+        Active
+      </td><td class="hms">0:06:59</td><td class="percent">3 %
+        </td><td class="mw">345 mWh
+        </td></tr><tr class="odd dc 24"><td class="dateTime"><span class="date"> </span><span class="time">21:53:16</span></td><td class="state">
+            Connected standby
+          </td><td class="hms">0:00:00</td><td class="nullValue">-</td><td class="nullValue">-</td></tr></table><h2>
       Usage history
     </h2><div class="explanation2">
       History of system usage on AC and battery
@@ -1556,7 +1537,7 @@
       Current estimate of battery life based on all observed drains since OS install
     </div><table><colgroup><col/><col class="col2"/><col style="width: 10em;"/><col style=""/><col style="width: 10em;"/><col style="width: 10em;"/><col style="width: 10em;"/></colgroup><tr class="even" style="vertical-align:top"><td>
           Since OS install
-        </td><td class="hms">4:35:31</td><td class="hms"><div style="height:1em;">54:34:06</div><span style="font-size:9pt; ">29 %
+        </td><td class="hms">4:37:36</td><td class="hms"><div style="height:1em;">54:58:57</div><span style="font-size:9pt; ">29 %
       
                 / 16 h
               </span></td><td class="colBreak"> </td><td class="hms">6:09:29</td><td class="hms"><div style="height:1em;">73:10:54</div><span style="font-size:9pt; ">22 %
