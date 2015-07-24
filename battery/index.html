@@ -466,9 +466,7 @@
     };
     
     drainGraphData = [
-    { x0: "2015-07-21T22:51:17", x1: "2015-07-21T23:06:18", y0: 0.9618554893019993, y1: 0.9618554893019993 }, 
-{ x0: "2015-07-21T23:06:18", x1: "2015-07-22T00:51:19", y0: 0.9618554893019993, y1: 0.9266923886355665 }, 
-{ x0: "2015-07-22T00:51:19", x1: "2015-07-22T01:06:19", y0: 0.9266923886355665, y1: 0.9266923886355665 }, 
+    { x0: "2015-07-22T00:51:19", x1: "2015-07-22T01:06:19", y0: 0.9266923886355665, y1: 0.9266923886355665 }, 
 { x0: "2015-07-22T01:06:19", x1: "2015-07-22T02:51:20", y0: 0.9266923886355665, y1: 0.9115222728867064 }, 
 { x0: "2015-07-22T02:51:20", x1: "2015-07-22T03:06:37", y0: 0.9115222728867064, y1: 0.9115222728867064 }, 
 { x0: "2015-07-22T03:06:37", x1: "2015-07-22T04:52:07", y0: 0.9115222728867064, y1: 0.862504384426517 }, 
@@ -563,6 +561,11 @@
 { x0: "2015-07-24T09:58:00", x1: "2015-07-24T10:03:00", y0: 0.9006031773001444, y1: 0.858550675388667 }, 
 { x0: "2015-07-24T10:03:00", x1: "2015-07-24T10:08:11", y0: 0.858550675388667, y1: 0.835018265228103 }, 
 { x0: "2015-07-24T22:08:31", x1: "2015-07-24T22:11:15", y0: 0.9987281668645074, y1: 0.9987281668645074 }, 
+{ x0: "2015-07-24T22:11:24", x1: "2015-07-24T22:32:20", y0: 0.9987281668645074, y1: 0.9983890113617093 }, 
+{ x0: "2015-07-24T22:32:20", x1: "2015-07-24T22:32:21", y0: 0.9983890113617093, y1: 0.9983890113617093 }, 
+{ x0: "2015-07-24T22:32:22", x1: "2015-07-24T22:32:25", y0: 0.9983890113617093, y1: 0.9980498558589113 }, 
+{ x0: "2015-07-24T22:32:29", x1: "2015-07-24T22:33:04", y0: 0.9980498558589113, y1: 0.9977954892318128 }, 
+{ x0: "2015-07-24T23:01:00", x1: "2015-07-24T23:57:04", y0: 0.9933016788197388, y1: 0.9914363235543496 }, 
 
     ];
     
@@ -570,8 +573,8 @@
         Timegraph.draw({
             element: "drain-graph",
             data: drainGraphData,
-            startTime: "2015-07-21T22:15:59",
-            endTime: "2015-07-24T22:16:00",
+            startTime: "2015-07-22T00:00:01",
+            endTime: "2015-07-25T00:00:02",
         });
     }
 
@@ -597,7 +600,7 @@
           CONNECTED STANDBY
         </td><td>Supported</td></tr><tr><td class="label">
           REPORT TIME
-        </td><td class="dateTime"><span class="date">2015-07-24 </span><span class="time">22:16:00</span></td></tr></table><h2>
+        </td><td class="dateTime"><span class="date">2015-07-25 </span><span class="time">00:00:02</span></td></tr></table><h2>
       Installed batteries
     </h2><div class="explanation">
       Information about each currently installed battery
@@ -615,13 +618,13 @@
             SOURCE
           </td><td colspan="2" class="centered">
             CAPACITY REMAINING
-          </td></tr></thead><tr class="even dc 1"><td class="dateTime"><span class="date">2015-07-21 </span><span class="time">22:51:17</span></td><td class="state">
+          </td></tr></thead><tr class="even dc 1"><td class="dateTime"><span class="date">2015-07-22 </span><span class="time">00:51:19</span></td><td class="state">
             Connected standby
           </td><td class="acdc">
         Battery
-      </td><td class="percent">96 %
-        </td><td class="mw">10,969 mWh
-        </td></tr><tr class="odd dc 2"><td class="dateTime"><span class="date">2015-07-22 </span><span class="time">07:13:53</span></td><td class="state">
+      </td><td class="percent">93 %
+        </td><td class="mw">10,568 mWh
+        </td></tr><tr class="odd dc 2"><td class="dateTime"><span class="date"> </span><span class="time">07:13:53</span></td><td class="state">
         Active
       </td><td class="acdc">
         Battery
@@ -867,12 +870,66 @@
         AC
       </td><td class="percent">100 %
         </td><td class="mw">11,779 mWh
-        </td></tr><tr class="odd  44"><td class="dateTime"><span class="date"> </span><span class="time">22:11:24</span></td><td class="state">
-        Report generated
+        </td></tr><tr class="odd dc 44"><td class="dateTime"><span class="date"> </span><span class="time">22:32:20</span></td><td class="state">
+        Active
+      </td><td class="acdc">
+        Battery
+      </td><td class="percent">100 %
+        </td><td class="mw">11,775 mWh
+        </td></tr><tr class="even  45"><td class="dateTime"><span class="date"> </span><span class="time">22:32:20</span></td><td class="state">
+        Active
       </td><td class="acdc">
         AC
       </td><td class="percent">100 %
-        </td><td class="mw">11,779 mWh
+        </td><td class="mw">11,775 mWh
+        </td></tr><tr class="odd dc 46"><td class="dateTime"><span class="date"> </span><span class="time">22:32:21</span></td><td class="state">
+        Active
+      </td><td class="acdc">
+        Battery
+      </td><td class="percent">100 %
+        </td><td class="mw">11,775 mWh
+        </td></tr><tr class="even  47"><td class="dateTime"><span class="date"> </span><span class="time">22:32:22</span></td><td class="state">
+        Active
+      </td><td class="acdc">
+        AC
+      </td><td class="percent">100 %
+        </td><td class="mw">11,775 mWh
+        </td></tr><tr class="odd dc 48"><td class="dateTime"><span class="date"> </span><span class="time">22:32:25</span></td><td class="state">
+        Active
+      </td><td class="acdc">
+        Battery
+      </td><td class="percent">100 %
+        </td><td class="mw">11,771 mWh
+        </td></tr><tr class="even  49"><td class="dateTime"><span class="date"> </span><span class="time">22:32:29</span></td><td class="state">
+        Active
+      </td><td class="acdc">
+        AC
+      </td><td class="percent">100 %
+        </td><td class="mw">11,771 mWh
+        </td></tr><tr class="odd dc 50"><td class="dateTime"><span class="date"> </span><span class="time">22:33:04</span></td><td class="state">
+        Active
+      </td><td class="acdc">
+        Battery
+      </td><td class="percent">100 %
+        </td><td class="mw">11,768 mWh
+        </td></tr><tr class="even  51"><td class="dateTime"><span class="date"> </span><span class="time">22:39:43</span></td><td class="state">
+        Active
+      </td><td class="acdc">
+        AC
+      </td><td class="percent">99 %
+        </td><td class="mw">11,715 mWh
+        </td></tr><tr class="odd dc 52"><td class="dateTime"><span class="date"> </span><span class="time">23:57:04</span></td><td class="state">
+        Active
+      </td><td class="acdc">
+        Battery
+      </td><td class="percent">99 %
+        </td><td class="mw">11,693 mWh
+        </td></tr><tr class="even dc 53"><td class="dateTime"><span class="date"> </span><span class="time">23:57:04</span></td><td class="state">
+        Report generated
+      </td><td class="acdc">
+        Battery
+      </td><td class="percent">99 %
+        </td><td class="mw">11,693 mWh
         </td></tr></table><h2>Battery usage</h2><div class="explanation">
       Battery drains over the last 3 days
     </div><canvas id="drain-graph" width="864" height="400"></canvas><table><colgroup><col/><col class="col2"/><col style="width: 10em;"/><col class="percent"/><col style="width: 11em;"/></colgroup><thead><tr><td>
@@ -883,11 +940,11 @@
             DURATION
           </td><td class="centered" colspan="2">
             ENERGY DRAINED
-          </td></tr></thead><tr class="even dc 1"><td class="dateTime"><span class="date">2015-07-21 </span><span class="time">22:51:17</span></td><td class="state">
+          </td></tr></thead><tr class="even dc 1"><td class="dateTime"><span class="date">2015-07-22 </span><span class="time">00:51:19</span></td><td class="state">
             Connected standby
-          </td><td class="hms">8:22:35</td><td class="percent">17 %
-        </td><td class="mw">1,883 mWh
-        </td></tr><tr class="odd dc 2"><td class="dateTime"><span class="date">2015-07-22 </span><span class="time">07:13:53</span></td><td class="state">
+          </td><td class="hms">6:22:34</td><td class="percent">13 %
+        </td><td class="mw">1,482 mWh
+        </td></tr><tr class="odd dc 2"><td class="dateTime"><span class="date"> </span><span class="time">07:13:53</span></td><td class="state">
         Active
       </td><td class="hms">0:04:15</td><td class="percent">1 %
         </td><td class="mw">165 mWh
@@ -986,7 +1043,18 @@
           </td><td class="hms">0:23:15</td><td class="nullValue">-</td><td class="mw">34 mWh
         </td></tr><tr class="noncontigbreak"><td colspan="5"> </td></tr><tr class="even dc 31"><td class="dateTime"><span class="date"> </span><span class="time">22:11:15</span></td><td class="state">
         Active
-      </td><td class="hms">0:00:08</td><td class="nullValue">-</td><td class="nullValue">-</td></tr></table><h2>
+      </td><td class="hms">0:00:08</td><td class="nullValue">-</td><td class="nullValue">-</td></tr><tr class="noncontigbreak"><td colspan="5"> </td></tr><tr class="odd dc 32"><td class="dateTime"><span class="date"> </span><span class="time">22:32:20</span></td><td class="state">
+        Active
+      </td><td class="hms">0:00:00</td><td class="nullValue">-</td><td class="nullValue">-</td></tr><tr class="noncontigbreak"><td colspan="5"> </td></tr><tr class="even dc 33"><td class="dateTime"><span class="date"> </span><span class="time">22:32:21</span></td><td class="state">
+        Active
+      </td><td class="hms">0:00:00</td><td class="nullValue">-</td><td class="nullValue">-</td></tr><tr class="noncontigbreak"><td colspan="5"> </td></tr><tr class="odd dc 34"><td class="dateTime"><span class="date"> </span><span class="time">22:32:25</span></td><td class="state">
+        Active
+      </td><td class="hms">0:00:04</td><td class="nullValue">-</td><td class="nullValue">-</td></tr><tr class="noncontigbreak"><td colspan="5"> </td></tr><tr class="even dc 35"><td class="dateTime"><span class="date"> </span><span class="time">22:33:04</span></td><td class="state">
+        Active
+      </td><td class="hms">0:06:39</td><td class="nullValue">-</td><td class="mw">53 mWh
+        </td></tr><tr class="noncontigbreak"><td colspan="5"> </td></tr><tr class="odd dc 36"><td class="dateTime"><span class="date"> </span><span class="time">23:57:04</span></td><td class="state">
+        Active
+      </td><td class="hms">0:00:00</td><td class="nullValue">-</td><td class="nullValue">-</td></tr></table><h2>
       Usage history
     </h2><div class="explanation2">
       History of system usage on AC and battery
@@ -1053,13 +1121,13 @@
       - 2015-05-11</td><td class="hms">17:38:33</td><td class="hms">45:16:26</td><td class="colBreak"> </td><td class="hms">47:06:51</td><td class="hms">20:42:49</td></tr><tr class="even  47"><td class="dateTime">2015-05-11
       - 2015-05-18</td><td class="hms">10:30:14</td><td class="hms">59:44:01</td><td class="colBreak"> </td><td class="hms">28:30:37</td><td class="hms">23:17:56</td></tr><tr class="odd  48"><td class="dateTime">2015-05-18
       - 2015-05-25</td><td class="hms">15:17:10</td><td class="hms">49:44:07</td><td class="colBreak"> </td><td class="hms">31:20:04</td><td class="hms">41:47:23</td></tr><tr class="even  49"><td class="dateTime">2015-05-25
-      - 2015-06-01</td><td class="hms">17:02:59</td><td class="hms">53:03:57</td><td class="colBreak"> </td><td class="hms">22:49:51</td><td class="hms">27:44:50</td></tr><tr class="odd  50"><td class="dateTime">2015-06-01
+      - 2015-06-01</td><td class="hms">16:22:38</td><td class="hms">53:03:38</td><td class="colBreak"> </td><td class="hms">21:19:39</td><td class="hms">26:00:29</td></tr><tr class="odd  50"><td class="dateTime">2015-06-01
       - 2015-06-08</td><td class="hms">13:54:25</td><td class="hms">38:39:12</td><td class="colBreak"> </td><td class="hms">27:54:07</td><td class="hms">4:14:18</td></tr><tr class="even  51"><td class="dateTime">2015-06-08
       - 2015-06-15</td><td class="hms">12:46:33</td><td class="hms">60:59:24</td><td class="colBreak"> </td><td class="hms">24:16:56</td><td class="hms">49:06:56</td></tr><tr class="odd  52"><td class="dateTime">2015-06-15
       - 2015-06-22</td><td class="hms">16:38:28</td><td class="hms">55:55:31</td><td class="colBreak"> </td><td class="hms">23:27:16</td><td class="hms">71:31:05</td></tr><tr class="even  53"><td class="dateTime">2015-06-22
       - 2015-06-29</td><td class="hms">14:55:34</td><td class="hms">87:40:03</td><td class="colBreak"> </td><td class="hms">5:32:14</td><td class="hms">17:37:48</td></tr><tr class="odd  54"><td class="dateTime">2015-06-29
       - 2015-07-06</td><td class="hms">8:58:23</td><td class="hms">78:43:19</td><td class="colBreak"> </td><td class="hms">3:50:54</td><td class="hms">20:07:43</td></tr><tr class="even  55"><td class="dateTime">2015-07-06
-      - 2015-07-13</td><td class="hms">11:04:32</td><td class="hms">72:47:15</td><td class="colBreak"> </td><td class="hms">2:09:22</td><td class="hms">55:39:57</td></tr><tr class="odd  56"><td class="dateTime">2015-07-14</td><td class="hms">1:36:27</td><td class="hms">6:35:29</td><td class="colBreak"> </td><td class="hms">0:14:21</td><td class="hms">15:30:29</td></tr><tr class="even  57"><td class="dateTime">2015-07-15</td><td class="hms">0:22:58</td><td class="hms">10:41:47</td><td class="colBreak"> </td><td class="hms">0:00:05</td><td class="hms">12:54:45</td></tr><tr class="odd  58"><td class="dateTime">2015-07-16</td><td class="hms">1:04:10</td><td class="hms">8:18:38</td><td class="colBreak"> </td><td class="hms">0:32:42</td><td class="hms">13:57:19</td></tr><tr class="even  59"><td class="dateTime">2015-07-17</td><td class="hms">0:42:50</td><td class="hms">16:50:16</td><td class="colBreak"> </td><td class="hms">0:03:35</td><td class="hms">6:22:55</td></tr><tr class="odd  60"><td class="dateTime">2015-07-18</td><td class="hms">1:20:09</td><td class="hms">16:36:54</td><td class="colBreak"> </td><td class="hms">0:27:56</td><td class="hms">5:34:32</td></tr><tr class="even  61"><td class="dateTime">2015-07-19</td><td class="hms">0:31:49</td><td class="hms">3:14:24</td><td class="colBreak"> </td><td class="hms">5:09:36</td><td class="hms">10:00:32</td></tr><tr class="odd  62"><td class="dateTime">2015-07-20</td><td class="hms">5:06:23</td><td class="hms">13:06:34</td><td class="colBreak"> </td><td class="hms">1:20:08</td><td class="hms">4:26:22</td></tr><tr class="even  63"><td class="dateTime">2015-07-21</td><td class="hms">1:05:09</td><td class="hms">8:26:58</td><td class="colBreak"> </td><td class="hms">0:00:09</td><td class="hms">14:27:19</td></tr><tr class="odd  64"><td class="dateTime">2015-07-22</td><td class="hms">0:28:02</td><td class="hms">23:27:04</td><td class="colBreak"> </td><td class="nullValue">-</td><td class="nullValue">-</td></tr><tr class="even  65"><td class="dateTime">2015-07-23</td><td class="hms">0:53:32</td><td class="hms">22:56:23</td><td class="colBreak"> </td><td class="nullValue">-</td><td class="nullValue">-</td></tr></table><h2>
+      - 2015-07-13</td><td class="hms">11:04:32</td><td class="hms">72:47:15</td><td class="colBreak"> </td><td class="hms">2:09:22</td><td class="hms">55:39:57</td></tr><tr class="odd  56"><td class="dateTime">2015-07-14</td><td class="hms">1:36:27</td><td class="hms">6:35:29</td><td class="colBreak"> </td><td class="hms">0:14:21</td><td class="hms">15:30:29</td></tr><tr class="even  57"><td class="dateTime">2015-07-15</td><td class="hms">0:22:58</td><td class="hms">10:41:47</td><td class="colBreak"> </td><td class="hms">0:00:05</td><td class="hms">12:54:45</td></tr><tr class="odd  58"><td class="dateTime">2015-07-16</td><td class="hms">1:04:10</td><td class="hms">8:18:38</td><td class="colBreak"> </td><td class="hms">0:32:42</td><td class="hms">13:57:19</td></tr><tr class="even  59"><td class="dateTime">2015-07-17</td><td class="hms">0:42:50</td><td class="hms">16:50:16</td><td class="colBreak"> </td><td class="hms">0:03:35</td><td class="hms">6:22:55</td></tr><tr class="odd  60"><td class="dateTime">2015-07-18</td><td class="hms">1:20:09</td><td class="hms">16:36:54</td><td class="colBreak"> </td><td class="hms">0:27:56</td><td class="hms">5:34:32</td></tr><tr class="even  61"><td class="dateTime">2015-07-19</td><td class="hms">0:31:49</td><td class="hms">3:14:24</td><td class="colBreak"> </td><td class="hms">5:09:36</td><td class="hms">10:00:32</td></tr><tr class="odd  62"><td class="dateTime">2015-07-20</td><td class="hms">5:06:23</td><td class="hms">13:06:34</td><td class="colBreak"> </td><td class="hms">1:20:08</td><td class="hms">4:26:22</td></tr><tr class="even  63"><td class="dateTime">2015-07-21</td><td class="hms">1:05:09</td><td class="hms">8:26:58</td><td class="colBreak"> </td><td class="hms">0:00:09</td><td class="hms">14:27:19</td></tr><tr class="odd  64"><td class="dateTime">2015-07-22</td><td class="hms">0:28:02</td><td class="hms">23:27:04</td><td class="colBreak"> </td><td class="nullValue">-</td><td class="nullValue">-</td></tr><tr class="even  65"><td class="dateTime">2015-07-23</td><td class="hms">0:53:32</td><td class="hms">22:56:23</td><td class="colBreak"> </td><td class="nullValue">-</td><td class="nullValue">-</td></tr><tr class="odd  66"><td class="dateTime">2015-07-24</td><td class="hms">0:42:19</td><td class="hms">8:31:50</td><td class="colBreak"> </td><td class="hms">1:41:47</td><td class="hms">12:56:02</td></tr></table><h2>
       Battery capacity history
     </h2><div class="explanation">
       Charge capacity history of the system's batteries
@@ -1212,7 +1280,7 @@
       - 2015-05-25</td><td class="mw">11,223 mWh
         </td><td class="mw">15,188 mWh
         </td></tr><tr class="even  49"><td class="dateTime">2015-05-25
-      - 2015-06-01</td><td class="mw">11,326 mWh
+      - 2015-06-01</td><td class="mw">11,320 mWh
         </td><td class="mw">15,188 mWh
         </td></tr><tr class="odd  50"><td class="dateTime">2015-06-01
       - 2015-06-08</td><td class="mw">11,141 mWh
@@ -1251,6 +1319,8 @@
         </td></tr><tr class="odd  64"><td class="dateTime">2015-07-22</td><td class="mw">11,440 mWh
         </td><td class="mw">15,188 mWh
         </td></tr><tr class="even  65"><td class="dateTime">2015-07-23</td><td class="mw">11,535 mWh
+        </td><td class="mw">15,188 mWh
+        </td></tr><tr class="odd  66"><td class="dateTime">2015-07-24</td><td class="mw">11,724 mWh
         </td><td class="mw">15,188 mWh
         </td></tr></table><h2>
       Battery life estimates
@@ -1599,10 +1669,10 @@
       
               / 16 h
             </span></td></tr><tr style="vertical-align:top" class="even  49"><td class="dateTime">2015-05-25
-      - 2015-06-01</td><td class="hms">5:32:42</td><td class="hms"><div style="height:1em;">81:47:39</div><span style="font-size:9pt; ">20 %
+      - 2015-06-01</td><td class="hms">5:29:16</td><td class="hms"><div style="height:1em;">81:54:35</div><span style="font-size:9pt; ">20 %
       
               / 16 h
-            </span></td><td class="colBreak"> </td><td class="hms">7:26:09</td><td class="hms"><div style="height:1em;">109:41:05</div><span style="font-size:9pt; ">15 %
+            </span></td><td class="colBreak"> </td><td class="hms">7:21:47</td><td class="hms"><div style="height:1em;">109:53:53</div><span style="font-size:9pt; ">15 %
       
               / 16 h
             </span></td></tr><tr style="vertical-align:top" class="odd  50"><td class="dateTime">2015-06-01
@@ -1695,14 +1765,20 @@
             </span></td><td class="colBreak"> </td><td class="hms">6:44:12</td><td class="hms"><div style="height:1em;">73:35:01</div><span style="font-size:9pt; ">22 %
       
               / 16 h
-            </span></td></tr><tr style="vertical-align:top" class="odd  64"><td class="dateTime">2015-07-22</td><td class="hms">5:06:18</td><td class="nullValue">-</td><td class="colBreak"> </td><td class="hms">6:46:39</td><td class="nullValue">-</td></tr><tr style="vertical-align:top" class="even  65"><td class="dateTime">2015-07-23</td><td class="hms">5:17:29</td><td class="nullValue">-</td><td class="colBreak"> </td><td class="hms">6:58:01</td><td class="nullValue">-</td></tr></table><div class="explanation2" style="margin-top: 1em; margin-bottom: 0.4em;">
+            </span></td></tr><tr style="vertical-align:top" class="odd  64"><td class="dateTime">2015-07-22</td><td class="hms">5:06:18</td><td class="nullValue">-</td><td class="colBreak"> </td><td class="hms">6:46:39</td><td class="nullValue">-</td></tr><tr style="vertical-align:top" class="even  65"><td class="dateTime">2015-07-23</td><td class="hms">5:17:29</td><td class="nullValue">-</td><td class="colBreak"> </td><td class="hms">6:58:01</td><td class="nullValue">-</td></tr><tr style="vertical-align:top" class="odd  66"><td class="dateTime">2015-07-24</td><td class="hms">5:08:20</td><td class="hms"><div style="height:1em;">204:06:23</div><span style="font-size:9pt; ">8 %
+      
+              / 16 h
+            </span></td><td class="colBreak"> </td><td class="hms">6:39:26</td><td class="hms"><div style="height:1em;">264:24:44</div><span style="font-size:9pt; ">6 %
+      
+              / 16 h
+            </span></td></tr></table><div class="explanation2" style="margin-top: 1em; margin-bottom: 0.4em;">
       Current estimate of battery life based on all observed drains since OS install
     </div><table><colgroup><col/><col class="col2"/><col style="width: 10em;"/><col style=""/><col style="width: 10em;"/><col style="width: 10em;"/><col style="width: 10em;"/></colgroup><tr class="even" style="vertical-align:top"><td>
           Since OS install
-        </td><td class="hms">4:50:31</td><td class="hms"><div style="height:1em;">63:16:52</div><span style="font-size:9pt; ">25 %
+        </td><td class="hms">4:50:27</td><td class="hms"><div style="height:1em;">63:23:42</div><span style="font-size:9pt; ">25 %
       
                 / 16 h
-              </span></td><td class="colBreak"> </td><td class="hms">6:14:07</td><td class="hms"><div style="height:1em;">81:29:30</div><span style="font-size:9pt; ">20 %
+              </span></td><td class="colBreak"> </td><td class="hms">6:14:03</td><td class="hms"><div style="height:1em;">81:38:19</div><span style="font-size:9pt; ">20 %
       
                 / 16 h
               </span></td></tr></table><br/><br/><br/></body></html>
