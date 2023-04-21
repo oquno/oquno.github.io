@@ -7,26 +7,6 @@ const convertButton = document.getElementById('convertButton');
 inputFile.addEventListener('change', async (e) => {
     displayConversations();
     return
-    const file = e.target.files[0];
-    const chatgptList = JSON.parse(await file.text());
-    conversationsList.innerHTML = '';
-
-    chatgptList.forEach((chatgptJson, index) => {
-        const container = document.createElement('div');
-        container.classList.add('conversation-item');
-
-        const checkbox = document.createElement('input');
-        checkbox.type = 'checkbox';
-        checkbox.id = `checkbox-${index}`;
-        checkbox.name = `checkbox-${index}`;
-
-        const label = document.createElement('label');
-        label.htmlFor = `checkbox-${index}`;
-        label.textContent = `${chatgptJson.update_time}: ${chatgptJson.title}`;
-
-        container.appendChild(checkbox);
-        container.appendChild(label);
-        conversationsList.appendChild(container);
     });
 });
 async function convertSelected() {
