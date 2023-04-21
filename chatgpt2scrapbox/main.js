@@ -6,8 +6,6 @@ const convertButton = document.getElementById('convertButton');
 
 inputFile.addEventListener('change', async (e) => {
     displayConversations();
-    return
-    });
 });
 async function convertSelected() {
     const file = inputFile.files[0];
@@ -106,8 +104,25 @@ function get_ordered_nodes(mapping, current_node) {
 }
 
 async function displayConversations() {
-    const file = inputFile.files[0];
-    const chatgptList = JSON.parse(await file.text());
+    const fileInput = document.getElementById('inputFile');
+    const file = fileInput.files[0];
+    if (!file) {
+        return;
+    }
+
+    const reader = new FileReader();
+
+    // FileReader.readAsText() を Promise を使って待機する
+    const fileContent = await new Promise((resolve, reject) => {
+        reader.onload = () => {
+            resolve(reader.result);
+        };
+        reader.onerror = () => {
+            reject(reader.error);
+        };
+        reader.readAsText(file);
+    });
+    const chatgptList = JSON.parse(fileContent);
 
     conversationItems.innerHTML = '';
 
