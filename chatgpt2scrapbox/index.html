@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatGPT to Scrapbox Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>ChatGPT to Scrapbox Converter</h1>
+    <label for="inputFile">Select input file(exported conversations.json):</label>
+    <input type="file" id="inputFile" name="inputFile" accept=".json">
+    <br>
+    <label for="userReplacement">Replace 'user' role with:</label>
+    <input type="text" id="userReplacement" placeholder="[myusername.icon]" name="userReplacement">
+    <br>
+    <label for="assistantReplacement">Replace 'assistant' role with:</label>
+    <input type="text" id="assistantReplacement" placeholder="[ChatGPT.icon]" name="assistantReplacement">
+    <br><br>
+    <div id="conversationsList">
+    <input id="searchInput" type="text" placeholder="Filter title" oninput="filterConversations()" />
+    <button id="toggleAll" onclick="toggleAllCheckboxes()">Check/Uncheck all</button>
+    <div id="conversationItems"></div>
+</div>
+
+    <button id="convertButton" onclick="convertSelected()">Convert And Download Selected</button>
+
+    <script src="main.js"></script>
+</body>
+</html>
+

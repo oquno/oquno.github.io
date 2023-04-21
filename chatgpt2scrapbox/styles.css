@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    margin: 0;
+}
+
+input[type="file"],
+input[type="text"] {
+    margin-top: 20px;
+}
+
+#conversationsList {
+    margin-top: 20px;
+}
+
+.conversation-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.conversation-item input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+button {
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+a {
+    display: block;
+    margin-top: 20px;
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
