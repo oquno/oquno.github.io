@@ -44,10 +44,10 @@ async function convertSelected() {
                     in_code_block = !in_code_block;
                     if (in_code_block) {
                         if (line.trim().length == 3) {
-                            lines.push("code:script");
+                            lines.push(" code:script");
                         }
                         else {
-                            lines.push("code:" + line.trim().substr(3))
+                            lines.push(" code:" + line.trim().substr(3))
                         }
                     }
                     else{
