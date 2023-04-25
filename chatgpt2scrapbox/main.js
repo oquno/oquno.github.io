@@ -50,10 +50,6 @@ async function convertSelected() {
                             lines.push(" code:" + line.trim().substr(3))
                         }
                     }
-                    else{
-                        // end code block
-                        lines.push("")
-                    }
                     continue;
                 }
 
