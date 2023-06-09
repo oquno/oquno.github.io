@@ -88,7 +88,7 @@ function get_ordered_nodes(mapping, current_node) {
 
     let ordered_nodes = [];
 
-    if (node_data.message !== null) {
+    if (node_data.message !== null && node_data.message.content != null && node_data.message.content.parts != null) {
         const content = node_data.message.content.parts[0];
         const role = node_data.message.author.role;
         if (role !== 'system') {
